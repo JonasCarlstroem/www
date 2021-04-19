@@ -1,0 +1,176 @@
+body{
+font-family: Coda-Regular;
+margin-top: 50px;
+background-image:url('images/opening_darkportal.png');
+background-color: #666666;
+background-attachment: fixed;
+overflow-y: scroll;
+}
+
+.backgroundwrapper img {
+max-width: 100%;
+max-height: 100%;
+}
+
+.raiderposts {
+
+
+}
+
+.raidershoutbox {
+
+
+}
+
+
+#bigcontent {
+	padding-top: 35px;
+	margin-left: 10%;
+	float: left;
+	background-color: #1a1a1a;
+	width: 1200px;
+	margin-bottom: 35px;
+	
+	-webkit-box-shadow: 0 0 3px 3px black;
+	box-shadow: 0 0 3px 3px black;
+	
+	-webkit-border-radius: 3px 3px 3px 3px;
+	border-radius: 3px 3px 3px 3px;
+	
+	
+ }
+ 
+#wrapper {
+	width: 1500px;
+	margin: auto;
+}
+
+
+.fadeIn{
+  -webkit-animation: fade-in 2s ease;
+  -moz-animation: fade-in ease-in-out 2s both;
+  -ms-animation: fade-in ease-in-out 2s both;
+  -o-animation: fade-in ease-in-out 2s both;
+  animation: fade-in 2s ease;
+  visibility: visible;
+  -webkit-backface-visibility: hidden;
+}
+
+#header {
+	z-index: 0;
+	margin: auto;
+	width: 1000px;
+	height: auto;
+
+}
+
+#header img {
+	max-width:100%;
+	height: auto;
+	margin: auto;
+	display: block;
+}
+
+#topbar {
+	z-index: 99999;
+	-webkit-box-shadow: 5px 5px 5px;
+	box-shadow: 5px 5px 5px;
+	background-image: url('images/menubar/topmenu2.png');
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 32px;
+	padding: 5px;
+
+}
+	
+#topbar a {
+}	
+#topbar a:active {
+}
+#topbar a:hover {
+}
+
+#divwrapper {
+width: 1000px;
+margin: auto;
+height: 500px;
+}
+
+#body1 {
+float: left;
+color: yellow;
+margin-top: 35px;
+padding: 10px;
+width: 450px;
+height: 480px;
+margin-right: 1px;
+font-size: 17px;
+
+}
+
+#body2 {
+float: left;
+margin-top: 35px;
+border: 1px solid black;
+padding: 10px;
+margin-left: 55px;
+width: 450px;
+height: 480px;
+
+}
+
+#footer {
+float: left;
+width: 1000px;
+height: 200px;
+margin-left: 100px;
+margin-top: 35px;
+margin-bottom: 35px;
+border: 1px solid black;
+}
+
+.bodybox {
+background-color: #181717;
+color: white;
+padding: 5px;
+float:left;
+overflow-y: scroll;
+width: 400px;
+height: auto;
+max-height: 420px;
+border: 2px solid black;
+margin-left: 10px;
+margin-top:5px;
+}
+
+#regbar {
+padding-left: 5px;
+padding-right: 5px;
+background-color: #181717;
+border: none;
+font-size: 20px;
+height: 30px;
+width: 200px;
+color: grey;
+font-style: italic;
+}
+
+.inputbars {
+padding-left: 5px;
+padding-right: 5px;
+background-color: #181717;
+border: none;
+font-size: 20px;
+height: 30px;
+width: 200px;
+color: #6aff05;
+}
+
+@font-face {
+    font-family: Coda-Regular;
+    src: url(fonts/Coda-Regular.ttf);
+}
+
+
